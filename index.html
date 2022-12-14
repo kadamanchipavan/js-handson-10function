@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <P>1.Create one function with zero parameter having a console statement;</P>
+    <pre>
+        function one(){
+            console.log("hello")
+        
+        }
+        one()
+        
+    </pre>
+    <P>2.Create one function which takes two values as a parameter and print the sum of them as "Sum of 3, 4 is 7"</P>
+    <pre>
+        function two(num1,num2){
+            return num1+num2;
+        }
+        const sum1=two(3,4)
+        console.log(sum1)
+        
+    </pre>
+    <P>3.Create one arrow function</P>
+    <pre>
+        let three =((x,y)=>{
+            return x*y
+           })
+           console.log(three(10,40))
+    </pre>
+    <!--.Print output:  -->
+    <pre>4.
+        var x = 21;
+        var girl = function () {
+            console.log(x);
+            var x = 20;
+        };
+        girl ();</pre>
+
+        <pre>5.
+        <!-- "Print output:  -->
+        var x = 21;
+        girl ();
+        console.log(x)
+        function girl() {
+            console.log(x);
+            var x = 20;
+        };
+        </pre> 
+        <pre> 6.<!-- Print output -->
+            var x = 21;
+             a();
+             b();
+             
+               function a() {
+                 
+                x = 20;
+               console.log(x);
+             };
+              function b() {
+                 
+                 x = 40;
+                console.log(x);
+             };
+            
+
+
+            </pre>
+            <p>7.Write a function that accepts parameter n and returns factorial of n</p>
+            <pre>
+                const fun=((n)=>{
+                    let factorail=1;
+                    for(let i=1;i<=n;i++){
+                        factorail=factorail*i;
+                    }
+                    return factorail;
+                })
+                console.log(fun(10));
+                
+                
+            </pre>
+   <script src="./main.js"></script> 
+</body>
+</html>
